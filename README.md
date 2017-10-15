@@ -4,7 +4,7 @@ Get Raspberry Pi board serialnumbermodel number
 ## install
 
 ```bash:
-pip install getrpimodel
+pip install piserialnumber
 ```
 
 ## return
@@ -20,7 +20,7 @@ python -m piserialnumber
 ### as python library.
 
 ```python:
-import getrpimodel
+import piserialnumber
 
-print (getrpimodel.serial())
+print (piserialnumber.serial())
 ```
